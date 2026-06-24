@@ -6,4 +6,3 @@ provider "azurerm" {
   }
 }
 
-# new rg
