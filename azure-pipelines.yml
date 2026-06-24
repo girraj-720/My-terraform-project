@@ -29,5 +29,5 @@ steps:
   inputs:
     provider: 'azurerm'
     command: 'plan'
-    workingDirectory: '$(System.DefaultWorkingDirectory)/girraj-720.My-terraform-project/20260624'
+    workingDirectory: $(System.DefaultWorkingDirectory)"\Dev-Enviroment\Azurerm-Child-Moduls\Azurerm-Resource-Group"
     environmentServiceNameAzureRM: 'girraj-svc'
