@@ -21,6 +21,7 @@ steps:
   inputs:
     targetType: 'inline'
     script: |
+      cd "$(Build.SourcesDirectory)\Dev-Enviroment\Azurerm-Child-Moduls\Azurerm-Resource-Group"
       # Write your PowerShell commands here.
       
       terraform init
