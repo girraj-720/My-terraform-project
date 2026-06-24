@@ -23,7 +23,7 @@ steps:
     script: |
       # Write your PowerShell commands here.
       
-      terrafor init
+      terraform init
 - task: TerraformTask@5
   inputs:
     provider: 'azurerm'
