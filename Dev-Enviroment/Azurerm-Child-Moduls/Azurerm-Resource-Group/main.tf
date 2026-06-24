@@ -1,4 +1,4 @@
 resource "azurerm_resource_group" "rg" {
-    name = "dev-rg"
+    name = "dhodhu-rg"
     location = "centralindia"
 }
