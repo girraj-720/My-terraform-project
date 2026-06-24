@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: girrajahentpool
+  name : girrajahentpool
 
 steps:
 - script: echo Hello, world!
