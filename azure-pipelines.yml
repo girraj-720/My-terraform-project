@@ -31,4 +31,11 @@ steps:
     command: 'plan'
     workingDirectory: '$(System.DefaultWorkingDirectory)\Dev-Enviroment\Azurerm-Child-Moduls\Azurerm-Resource-Group'
     environmentServiceNameAzureRM: 'girraj-svc'
+- task: TerraformTask@5
+  inputs:
+    provider: 'azurerm'
+    command: 'apply'
+    workingDirectory: '$(System.DefaultWorkingDirectory)\Dev-Enviroment\Azurerm-Child-Moduls\Azurerm-Resource-Group'
+    commandOptions: '-auto-approve'
+    environmentServiceNameAzureRM: 'girraj-svc'
 
